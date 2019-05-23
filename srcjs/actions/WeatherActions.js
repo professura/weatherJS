@@ -15,7 +15,7 @@ export function getWeather(location) {
           type: GET_WEATHER_REQUEST,
           payload: null
         })
-        const response = await fetch("http://api.apixu.com/v1/current.json?lang=ru&key=d03a08c0332c43fea8394630192305&q=" + location, {
+        const response = await fetch("https://api.apixu.com/v1/current.json?lang=ru&key=d03a08c0332c43fea8394630192305&q=" + location, {
           method: "GET"
         });
 
