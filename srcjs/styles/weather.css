@@ -1,0 +1,15 @@
+.weather-widget {
+   width: 300px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-width {
+    width: 100%;
+}
